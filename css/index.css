@@ -1,0 +1,127 @@
+.mb-10{
+	margin-bottom: 10px;
+}
+.font-18{
+	font-size: 18px;
+}
+
+.game-wrap{
+	width: 100%;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+.snake-box{
+	float: left;
+	width: 75%;
+	height: 500px;
+	background-color: #000;
+	border: 2px solid;
+	color: white;
+	box-sizing: content-box;
+}
+.right-operate{
+	float: left;
+	width: 23%;
+	padding: 20px;
+	background-color: #ccc;
+}
+.right-operate .btn{
+	display: block;
+	width: 100%;
+	text-align: center; 
+}
+body {
+	background-image: url(../img/bs.jpeg);
+}
+.food img{
+	vertical-align: sub;!important;
+}
+
+.dialog-body {
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	background-color: rgb(91, 110, 127);
+	border-radius: 6px;
+	padding: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+.dialog {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	padding-top: 100px;
+	display: none;
+}
+.dialog-body p {
+	margin-bottom: 10px;
+}
+.dialog-body input {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	outline: none;
+	width: 100%;
+	padding-left: 10px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.dialog-body div {
+	cursor: pointer;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	border-radius: 3px;
+	border: 1px solid #64B990;
+	background-color: #64B990;
+	color: #fff;
+	text-align: center;
+}
+.closers{
+	transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	float: right;
+	margin: 0 0 10px;
+}
+table, tr {
+	color: #58ff02;
+	background-color: black;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+th, td {
+	width: 32%;
+	font-size: 0.75em;
+	text-align: center;
+	border-right: 1px solid rgba(255, 255, 255, .4);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+.footer {
+	width: 100%;
+	padding: 100px 0 20px 0;
+	text-align: center;
+	color: #58ff02;
+}
+.footer a {
+	color: #58ff02!important;
+}
+.btn-primary {
+	color: #4ff700;
+	background-color: #020400!important;
+	border-color: #020400!important;
+}

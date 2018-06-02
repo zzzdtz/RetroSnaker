@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>星云链多彩贪吃蛇</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/toast.css">
+</head>
+<body>
+
+
+<div class="game-wrap clearfix">
+	<div id="dialog" class="dialog">
+		<div class="dialog-body">
+			<span class="closers" >
+				<img src="./img/close.png" alt="你确定要放弃提交吗?" id="close-icon" class="add-icon">
+			</span>
+			<p style=" margin: 30px 0 10px!important;">昵称</p>
+			<input type="text" id="name" />
+			<p>分数</p>
+			<input type="text" id="score" />
+			<div id="btn">提交</div>
+		</div>
+	</div>
+
+	<div id="snake_box" class="snake-box"></div>
+	<div class="right-operate">
+
+		<div class="mb-10" id="history">
+			<div class="alert alert-info" role="alert">
+				<span id="author-grade" style="font-size: 0.75em;"></span>
+			</div>
+
+
+			得分：<span class="label label-success font-18" id="grade">0</span>
+		</div>
+
+		<div class="form-group">
+			<button type="button" class="btn btn-primary" id="start_btn">开始游戏</button>
+		</div>
+
+		<img src="./img/nas.png" alt="">
+		<table cellspacing="0" cellpadding="0" id="table"></table>
+
+	</div>
+</div>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/nebulas.js"></script>
+<script type="text/javascript" src="./js/nebPay.js"></script>
+<script type="text/javascript" src="./js/tool.js"></script>
+<script type="text/javascript" src="./js/food.js"></script>
+<script type="text/javascript" src="./js/snake.js"></script>
+<script type="text/javascript" src="./js/Game.js"></script>
+<script type="text/javascript" src="./js/toast.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+
+<div style="text-align:center;">
+
+</div>
+
+<div class="footer">
+	<span>基于星云链的多彩贪吃蛇小游戏,开始游戏游戏后，使用键盘的上下左右来控制贪吃蛇<span>
+	<a href="https://incentive.nebulas.io/cn/signup.html?invite=NaAX8" target="_Blank">免费领NAS币</a>
+	<a href="mailto:anygh88@qq.com">联系我anygh88@qq.com</a>
+	<a target="_Blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">星云钱包安装</a>
+	<a target="_Blank" href="https://blog.nebulas.io/2018/04/12/creating-a-nas-wallet/">星云钱包开户</a>
+</div>
+
+</body>
+</html>
